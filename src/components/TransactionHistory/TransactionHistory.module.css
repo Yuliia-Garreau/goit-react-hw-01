@@ -1,0 +1,46 @@
+.table {
+  margin-top: 100px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* max-width: ; */
+  width: 990px;
+  font-size: 20px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.theader {
+  background-color: #272626;
+  color: white;
+  font-size: 28px;
+  padding: 10px auto;
+}
+.tbody {
+}
+tr {
+  border: 1px solid black;
+}
+tr:nth-child(even) {
+  background-color: #bdbcbc;
+}
+th {
+  border: 1px solid black;
+  height: 50px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+td {
+  border: 1px solid black;
+  font-size: 28px;
+  width: 300px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.typeName {
+  text-align: left;
+  padding-left: 100px;
+  letter-spacing: 1px;
+}
+.center {
+  text-align: center;
+}
